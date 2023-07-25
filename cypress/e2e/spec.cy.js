@@ -1,3 +1,4 @@
+/// <reference types="Cypress" />
 import { LoginMethods } from "./Pages/Login/login.methods"
 
 describe('template spec', () => {
