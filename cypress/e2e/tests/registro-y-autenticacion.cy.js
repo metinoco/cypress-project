@@ -2,6 +2,8 @@ import { commonPageData } from "../Pages/Common-page/common-page.data";
 import { Logger } from "../util/logger";
 import { commonPageMethods } from "../Pages/Common-page/common-page.methods";
 import { signupMethods } from "../Pages/Signup/signup.methods";
+const user = commonPageMethods.generateRandomString();
+const password = commonPageMethods.generateRandomString();
 
 
 
@@ -17,8 +19,8 @@ describe(commonPageData.testSuites.registroYAutenticación, () => {
 
         Logger.stepNumber(3)
         Logger.step('Completar todos los campos obligatorios con información válida')
-        signupMethods.insertUsername('Monshy');
-        signupMethods.insertPassword('123456!');
+        signupMethods.insertUsername(user);
+        signupMethods.insertPassword(password);
 
         Logger.stepNumber(4)
         Logger.step('Hacer clic en "Sign up" para registrar el usuario')
