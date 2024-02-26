@@ -22,7 +22,8 @@ export class commonPageElements {
             },
 
             get signUp (){
-                return cy.contains('a', 'Sign Up');
+                return cy.get('#signin2');
+                // return cy.contains('a', 'Sign Up' );
             },
         }
     }

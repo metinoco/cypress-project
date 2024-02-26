@@ -1,5 +1,12 @@
 export class commonPageData {
     static get url (){
-        return 'https://demoblaze.com/cart.html';
+        return 'https://www.demoblaze.com/';;
+    }
+
+    static get testSuites (){
+        return {
+            registroYAutenticación : "Registro y autenticación",
+            catalogoYCompras: "Catálogo y compras"
+        }
     }
 }
