@@ -2,9 +2,10 @@ import { commonPageData } from "../Pages/Common-page/common-page.data";
 import { Logger } from "../util/logger";
 import { commonPageMethods } from "../Pages/Common-page/common-page.methods";
 import { signupMethods } from "../Pages/Signup/signup.methods";
+import { LoginData } from "../Pages/Login/login.data";
 const user = commonPageMethods.generateRandomString();
 const password = commonPageMethods.generateRandomString();
-const existingUser = 'random01';
+const existingUser = LoginData.validCredentials.username;
 
 
 
