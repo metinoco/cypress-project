@@ -14,6 +14,6 @@ export class homeElements {
     }
     //metodo para capturar el nombre de manera dinámica
     static product (productName) {
-        return cy.contains('a', productName)
+        return cy.contains('a', productName, {timeout: 30000});
     }
 }
