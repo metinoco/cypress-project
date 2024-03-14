@@ -1,6 +1,6 @@
 export class commonPageData {
     static get url (){
-        return 'https://www.demoblaze.com/';;
+        return 'https://www.demoblaze.com/';
     }
 
     static get testSuites (){
