@@ -1,29 +1,33 @@
 export class commonPageElements {
-    static get topMenu () {
+    static get topMenu() {
         return {
-            get home () {
+            get home() {
                 return cy.contains('a', 'Home');
             },
 
-            get contact (){
+            get contact() {
                 return cy.contains('a', 'Contact');
             },
 
-            get aboutUs (){
+            get aboutUs() {
                 return cy.contains('a', 'About us');
             },
 
-            get cart (){
+            get cart() {
                 return cy.contains('a', 'Cart');
             },
 
-            get login (){
+            get login() {
                 return cy.contains('a', 'Log in');
             },
 
-            get signUp (){
+            get signUp() {
                 return cy.get('#signin2');
                 // return cy.contains('a', 'Sign Up' );
+            },
+
+            get logOut() {
+                return cy.get('#logout2');
             },
         }
     }
