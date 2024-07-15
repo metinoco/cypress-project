@@ -4,10 +4,10 @@ Este es un proyecto donde aplico el patrón de diseño Page Object Model (POM), 
 
 
 
-## Screenshots
+## Screenshots de reporte HTML en AWS
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
+![Reporte Allure visión general](https://github.com/metinoco/cypress-project/blob/main/Media/reporter_1.png)
+![Reporte Allure tests suite](https://github.com/metinoco/cypress-project/blob/main/Media/reporter_2.png)
 
 ## Instalación del proyecto
 
