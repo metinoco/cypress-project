@@ -9,7 +9,10 @@ Este es un proyecto donde aplico el patrón de diseño Page Object Model (POM), 
 ![Reporte Allure visión general](https://github.com/metinoco/cypress-project/blob/main/Media/reporter_1.png)
 ![Reporte Allure tests suite](https://github.com/metinoco/cypress-project/blob/main/Media/reporter_2.png)
 
-## Instalación del proyecto
+Aquí puedes interactuar con el reporte HTML de Allure alojado en el bucket de S3.
+[AWS S3 Allure reporter](https://reporte-pruebas-cy.s3.amazonaws.com/index.html) 
+
+## ⚙️ Instalación del proyecto
 
 Clonar el proyecto en local
 
@@ -51,7 +54,7 @@ Todos los comandos se pueden correr desde la raíz del proyecto:
 ## <img src='https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/handshake.gif' width="45px"> Conectemos:
 ###
 
-<div align="center">
+<div align="left">
   <a href="https://www.linkedin.com/in/metinoco" target="_blank">
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
   </a>
