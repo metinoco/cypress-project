@@ -47,3 +47,20 @@ Todos los comandos se pueden correr desde la raíz del proyecto:
 | `npm run abrir-report`    | Abrir el reporte de Allure en el navegador prederteminado     |
 | `npm run test`            | Ejecutar los tests en modo headless, generar y abrir el reporte HTML en el navegador prederteminado. |
 | `npm run cy:parallel` | Limpiar el reporte HTML, ejecutar los tests en paralelo y generar el reporte HTML                   |
+
+## <img src='https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/handshake.gif' width="45px"> Conectemos:
+###
+
+<div align="center">
+  <a href="https://www.linkedin.com/in/metinoco" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
+  </a>
+  <a href="https://discordapp.com/users/monshy.tinoco" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="discord logo"  />
+  </a>
+  <a href="https://t.me/metinoco" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Telegram&logo=telegram&label=&color=2CA5E0&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="telegram logo"  />
+  </a>
+</div>
+
+###
