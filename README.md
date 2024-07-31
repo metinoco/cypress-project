@@ -39,6 +39,35 @@ Instalar versión de Cypress del proyecto
   npm install --save-dev cypress@12.13.0
 ```
 
+> [!WARNING]
+> El paquete de Allure utilizado en este proyecto genera algunos problemas con las versiones nuevas de Cypress al crear el reporte HTML, para solucionarlo se debe instalar el siguiente paquete:
+```bash
+  npm i @mmisty/cypress-allure-adapter
+```
+Importar en el archivo e2e.js:
+
+```bash
+  import '@mmisty/cypress-allure-adapter/support';
+```
+
+Eliminar la línea de código del paquete anterior y configurar en el archivo cypress.config.js el nuevo paquete:
+
+```bash
+const { configureAllureAdapterPlugins } = requiere ('@mmisty/cypress-allure-adapter/plugins');
+
+export default defineConfig({
+  e2e: {
+    setupNodeEvents(on, config) {
+      configureAllureAdapterPlugins(on, config);
+      
+      return config;
+    },
+    // ...
+  }
+});
+```
+
+
 ## 🧞 Comandos
 
 Todos los comandos se pueden correr desde la raíz del proyecto:
